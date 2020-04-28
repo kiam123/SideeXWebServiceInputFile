@@ -1,0 +1,44 @@
+{
+    "webdriver": {
+        "debug": false,
+        "configs": [{
+            "browsers": [{
+                "active": true,
+                "capability": {
+                    "browserName": "chrome"
+                }
+            }],
+            "serverUrl": "http://localhost:4444",
+            "type": "selenium"
+        }]
+    },
+    "mail": {
+        "active": 1,
+        "configs": {
+            "transport": {
+                "host": "smtp.gmail.com",
+                "port": 465,
+                "secure": true,
+                "auth": {
+                    "user": "kiam125@gmail.com",
+                    "pass": "gmqsvtenvsbdmbgf"
+                }
+            },
+            "mailer": {
+                "from": "\"SideeX\" <kiam125@gmail.com>",
+                "to": "kiam125@gmail.com",
+                "subject": "SideeX Runner Mail Test",
+                "text": "SideeX Runner Mail Test Success",
+                "html": "<p>SideeX Runner Mail Test</p>"
+            }
+        }
+    },
+    "slack": {
+        "active": 0,
+        "configs": {
+            "token": "xoxb-897500492421-904606810004-4sb78UoOVMBRyfVDNkrXjkfY",
+            "channel": "web-project",
+            "text": "SideeX Runner Slack Test"
+        }
+    }
+}
