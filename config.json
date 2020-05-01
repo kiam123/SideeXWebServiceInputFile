@@ -8,7 +8,7 @@
                     "browserName": "chrome"
                 }
             }],
-            "serverUrl": "http://140.116.6.51:4444",
+            "serverUrl": "http://localhost:4444",
             "type": "selenium"
         }]
     },
